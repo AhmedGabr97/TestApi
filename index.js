@@ -5,7 +5,7 @@ app.use(express.json())
 app.use(cors())
 
 const mongosses = require('mongoose');
-mongosses.connect("mongodb+srv://agahmedgabr2017:admin123@cluster0.1gmxatp.mongodb.net/test?retryWrites=true&w=majority");
+mongosses.connect("https://sore-red-costume.cyclic.app");
 
 const userModel = require('./model/User');
 
